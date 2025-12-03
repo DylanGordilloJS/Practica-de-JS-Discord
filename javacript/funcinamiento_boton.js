@@ -27,4 +27,3 @@ from.addEventListener("submit", function (evento){
           window.location.href = "https://gemini.google.com/app/e368ff3ad61f7014?hl=es"
       }
 })
-

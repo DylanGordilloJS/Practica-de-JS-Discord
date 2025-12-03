@@ -1,0 +1,48 @@
+body {
+    background-image: url(/fondo\ login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.caja {
+ position: absolute;
+ top: 1px;
+ left: 510px;
+ width: 490px;
+ height: 780px;
+ background-color: #36393F;
+ border-radius: 10px;
+ padding-top: 22px;
+}
+
+#titulo {
+     position: absolute;
+     left: 100px;
+     color: white;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.from {
+    position: absolute;
+    top: 120px;
+    left: 9%;
+}
+
+label {
+    color: white;
+    font-family:cursive ;
+    
+}
+
+label, input {
+  display: block;
+  margin: 1px;
+}
+
+input {
+    width: 400px;
+    height: 39px;
+    border-radius: 10px;
+    background-color:  rgb(41, 39, 39);
+}   
