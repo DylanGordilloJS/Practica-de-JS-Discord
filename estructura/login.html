@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilo/LOGIN.css">
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg">
+    <title>LOGIN</title>
+</head>
+<body>
+        <div class="fondo">
+          <h1 id="WELCAME">Welcome back!</h1>
+           <h2 id="slogan">We're so excited to see you again!</h2>
+            <div class="LOGIN_iputs">
+                <form id="loginForm" >
+                <label for="email">EMAIL OR PHONE NUMBER</label> <br>
+                 <input type="email" class="inputs_verificar" id="email" required>
+                 <div class="LOGIN_iputs"> 
+                <label for="password">PASSWORD</label> <br>
+                <input type="password" class="inputs_verificar" id="password" required>
+                <p id="olvido_contrasena">Forgot your password?</p>
+                <button type="submit" id="enviar" >LOGIN</button>
+                <p id="no_tien_cuenta">
+                  Need an account? <a href="https://discord.com/login?redirect_to=%2Fchannels%2F%40me" class="diseno"  aria-required="true">REGISTER</a>
+                 </p>
+                </form>
+                </div>
+            </div>
+               <div class="QR">
+                 <img id="QR_DISCORD" src="/QR.png" alt="QR">
+                   <h2 id="QR_titulo">Login with QR Code</h2>
+                    <p id="parrafo_QR">
+                      scan this with <strong>Discord mobile <br> 
+                        app </strong> to log in instantly</p>
+               </div>
+                <script src="/javacript/funcinamiento_boton.js"></script>
+            </div>
+ </body>
+</html>

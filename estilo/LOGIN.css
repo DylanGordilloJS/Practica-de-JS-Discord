@@ -1,0 +1,126 @@
+body  {
+    background-image: url(/fondo\ login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.fondo {
+ position: absolute;
+ top: 130px;
+ left: 300px;
+ width: 980px;
+ height: 480px;
+ background-color: #36393F;
+ border-radius: 5px;
+ padding-top: 22px;
+ 
+}
+
+#WELCAME {
+    position: relative;
+    color: white;
+    left: 199px;
+    top: 12px;
+    font-size: 33px;
+    width: 222px;
+    animation: var(--animate-bounce);
+}
+
+#slogan {
+    position: relative;
+    color: #848181;
+    left: 159px;
+}
+
+label {
+    position: relative;
+    color: #d1d1d1;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+    margin:  19px;
+    left: 20px;
+    font-weight: bold;
+}
+
+.LOGIN_iputs input {
+    position: relative;
+    margin:  18px;
+    background-color: rgb(27, 27, 27);
+    width: 500px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    left: 20px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+
+#enviar {
+    position: relative;
+    text-align: center;
+    background-color: #5850C8;
+    color: white;
+    top: 14px;
+    left: 33px;
+    width: 509px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+#QR_DISCORD {
+    position: absolute;
+    left: 680px;    
+    top: 50px;
+}
+
+#olvido_contrasena {
+    position: relative;
+    margin: 2px;
+    padding: 0;
+    left: 30px;
+    color: rgb(16, 167, 227);
+}
+
+/* 
+el titulo  de QR 
+y el  parrafo 
+*/
+
+#QR_titulo {
+    position: absolute;
+    left: 660px;
+    top: 290px;
+    color: white;
+    font-size: 30px;
+}
+
+#parrafo_QR {
+    position: absolute;
+    left: 660px;
+    top: 340px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#no_tien_cuenta {
+    position: absolute;
+    left: 30px;
+    color: gray;
+}
+
+.diseno{
+    color:rgb(168, 168, 210);
+    text-decoration: none;
+}
+
+.diseno:hover {
+    color: rgb(168, 168, 210);
+    text-decoration: underline;
+}
+
+.no_tien_cuenta p {
+    color: rgb(168, 168, 210);
+}
+
