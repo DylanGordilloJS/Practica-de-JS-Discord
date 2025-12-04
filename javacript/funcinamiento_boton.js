@@ -1,15 +1,12 @@
-let datos = new Map();
+let Usuario_Datos = new Map();
 
-datos.set("prueba123@gmail.com", { 
-    email: "prueba123@gmail.com", 
-    password: "2222"
-});
+Usuario_Datos.set("prueba123@gmail.com", { email: "prueba123@gmail.com", password: "2222"});
 
 function verifcar_Base_datos() {
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
-  if (datos.has(email)) {
-          let usuario = datos.get(email);
+  if (Usuario_Datos.has(email)) {
+          let usuario = Usuario_Datos.get(email);  
           
           if (usuario.password === password) {
               return true;

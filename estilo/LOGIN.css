@@ -81,6 +81,7 @@ label {
     padding: 0;
     left: 30px;
     color: rgb(16, 167, 227);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* 
@@ -110,6 +111,8 @@ y el  parrafo
     position: absolute;
     left: 30px;
     color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .diseno{
@@ -125,4 +128,3 @@ y el  parrafo
 .no_tien_cuenta p {
     color: rgb(168, 168, 210);
 }
-
