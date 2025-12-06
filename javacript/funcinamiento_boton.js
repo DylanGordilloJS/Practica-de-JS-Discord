@@ -1,7 +1,8 @@
+// base de datos 
 let Usuario_Datos = new Map();
 
 Usuario_Datos.set("prueba123@gmail.com", { email: "prueba123@gmail.com", password: "2222"});
-
+// comprobacion de  inputs  en fomulario 
 function verifcar_Base_datos() {
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
@@ -14,9 +15,10 @@ function verifcar_Base_datos() {
       }
      return false
 }
-
+//  selecionar todo   el formulario con sus inputs
 let  from = document.getElementById("loginForm")
-
+// hacer que  un evento que solo quite la funcion de (submit)  
+// por defecto  se actuliza los datos  osea el elemtto (submit)
 from.addEventListener("submit", function (evento){
       evento.preventDefault()
       let usuarioLogiado = verifcar_Base_datos()

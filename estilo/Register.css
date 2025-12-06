@@ -37,12 +37,17 @@ label {
 
 label, input {
   display: block;
-  margin: 1px;
+  margin: 2px;
+  color: white;
+  font-size: larger;
 }
 
 input {
     width: 400px;
-    height: 39px;
+    height: 49px;
     border-radius: 10px;
     background-color:  rgb(41, 39, 39);
 }   
+
+
+
