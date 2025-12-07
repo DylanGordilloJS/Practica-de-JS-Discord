@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGiSTER</title>
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg">
     <link rel="stylesheet" href="/estilo/Register.css">
 </head>
 <body>
      <div class="caja">
             <h1 id="titulo">Create an account</h1>
             <div class="from">
+                <form>
                 <label for="Email">Email</label> <br>
-                 <input type="email" id="Email" name="input_Email"><br>
+                 <input type="email" id="Email" name="input_Email" required><br>
                  <label for="Display_Name">Display Name</label><br>
-                 <input type="text" id="Display_Name" name="inputs_Display"><br>
+                 <input type="text" id="Display_Name" name="inputs_Display" required><br>
                  <label for="Name">Username</label><br>
-                 <input type="text" id="Name" name="inputs_Username"><br>
+                 <input type="text" id="Name" name="inputs_Username" required><br>
                  <label for="password">password</label><br>
-                <input type="password" id="password" name="input_password">
+                <input type="password" id="password" name="input_password" required>
+                <button type="submit" name="send" id="send">Create account</button>
+            </form>
            <div class="date-of-birth-container">
         <label for="dob-day" class="fechas">DATE OF BIRTH *</label>
      <div class="select-group">
-        <select id="dob-day" name="dob-day" required>
+        <select id="dob-day" name="dob-day"  required>
             <option disabled selected>Día</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -69,7 +73,7 @@
             <option>Noviembre </option>
             <option>Diciembre</option>
             </select>
-        <select id="dob-year" name="dob-year" required>
+        <select id="dob-year" name="dob-year"   required>
             <option  disabled selected>Año</option>
             <option value="2005">2005</option>
             <option value="2004">2004</option>
@@ -77,5 +81,6 @@
     </div>
 </div>
      </div>
+         <script src="/javacript/inputs_alerta.js"></script>
 </body>
 </html>
