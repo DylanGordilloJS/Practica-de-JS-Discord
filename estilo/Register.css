@@ -51,3 +51,21 @@ input {
 
 
 
+
+#dob-day,
+#dob-month,
+#dob-year {
+    position: relative;
+    left: -2px;
+    height: 49px;
+    margin: 4px;
+    border-radius: 10px;
+    width: 119px;   
+    color: white;
+    background-color: #272728;
+    font-size: 20px;
+}
+
+.fechas {
+    padding: 2px;
+}
