@@ -1,9 +1,7 @@
 body  {
-    background-image: url(/fondo\ login.png);
+    background-image: url(/IMG/fondo\ login.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0;
-    margin: 0;
 }
 .fondo {
  position: absolute;
