@@ -65,6 +65,7 @@ label {
     width: 509px;
     height: 55px;
     border-radius: 10px;
+    box-shadow: 1px 1px 10px #2d2d2d;
 }
 
 #QR_DISCORD {

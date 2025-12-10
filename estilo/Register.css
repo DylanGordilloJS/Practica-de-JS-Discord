@@ -1,3 +1,4 @@
+
 body {
     background-image: url(/IMG/fondo\ login.png);
     background-repeat: no-repeat;
@@ -80,7 +81,7 @@ input {
 
 #send{
     position: relative;
-    width:55cqb;
+    width: 105mm;
     padding: 13px;
     border-radius: 10px;
     top: 135px;
@@ -88,9 +89,18 @@ input {
     background-color: #5070e4;
     border: none;
     font-size: 16px;
-    color: white    ;
+    color: white ;
+    box-shadow: 0px 0px 9px rgb(49, 64, 161);
 }
 #send:hover{
     background-color: #677BC4;
 }   
 
+#tengo_Cuenta{
+    position: absolute;
+    bottom: -100px;
+    color: rgb(73, 116, 210);
+    left: 0;
+    font-size: 16px;
+    text-decoration:none;
+}
