@@ -53,19 +53,21 @@ label {
     border-radius: 10px;
     border-color: black;
 }
-
-
 #enviar {
     position: relative;
     text-align: center;
     background-color: #5850C8;
     color: white;
-    top: 14px;
+    top: 10px;
     left: 33px;
     width: 509px;
     height: 55px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #2d2d2d;
+}
+#enviar:hover{
+    background-color: #635ccb;
+    transform: scale(1.04);
 }
 
 #QR_DISCORD {
@@ -111,7 +113,7 @@ y el  parrafo
     left: 30px;
     color: gray;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    bottom: -5px;
 }
 
 .diseno{
@@ -126,4 +128,9 @@ y el  parrafo
 
 .no_tien_cuenta p {
     color: rgb(168, 168, 210);
+}
+
+
+input.error {
+       border: 2px solid #ac474b ;
 }

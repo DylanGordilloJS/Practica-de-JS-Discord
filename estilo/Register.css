@@ -52,7 +52,10 @@ input {
     border: none;
 }   
 
-
+input:focus{
+    border-color: #272728;
+    border: none;
+}
 
 
 #dob-day,
@@ -84,7 +87,7 @@ input {
     width: 105mm;
     padding: 13px;
     border-radius: 10px;
-    top: 135px;
+    top: 125px;
     cursor: pointer ;
     background-color: #5070e4;
     border: none;
@@ -94,6 +97,7 @@ input {
 }
 #send:hover{
     background-color: #677BC4;
+    transform: scale(1.05);
 }   
 
 #tengo_Cuenta{
@@ -103,4 +107,18 @@ input {
     font-size: 16px;
     left: 0;
     text-decoration:none;
+}
+
+
+
+.error_mensaje {
+        color: red;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: -7px;
+        display: none;
+}
+
+
+input.error {
+    border: 2px solid #ae2a2f !important;
 }
