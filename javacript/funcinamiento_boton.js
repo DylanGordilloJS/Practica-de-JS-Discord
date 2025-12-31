@@ -27,9 +27,10 @@ from.addEventListener("submit", function (evento){
       }
 })
 
+
 const btn = document.getElementById("enviar")
 const inputs = document.querySelectorAll("input")
-
+// si apreta el boton pero no a escrito sus datos  sale (error)
 btn.addEventListener("click", function () {
     inputs.forEach((input) => {
         if(input.value.trim() === "") {
@@ -38,10 +39,13 @@ btn.addEventListener("click", function () {
     })
 })
 
-inputs.forEach((input) => {
+// aca se quita todo si el usuario interactua con el input
+inputs.foraEach((input) => {
     input.addEventListener("input" , () => {
         if(input.value.trim() !== "") {
             input.classList.remove("error")
         }
     })
 })
+
+

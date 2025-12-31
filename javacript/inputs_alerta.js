@@ -33,5 +33,3 @@ inputs.forEach((input) => {
         }
     });
 });
-
-
