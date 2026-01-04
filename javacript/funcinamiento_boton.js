@@ -47,5 +47,3 @@ inputs.foraEach((input) => {
         }
     })
 })
-
-
